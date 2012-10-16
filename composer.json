@@ -1,5 +1,5 @@
 {
-    "name": "zf2book/zfdeals",
+    "name": "zf2book/zf-deals",
     "description": "This is the companion to the book 'Webentwicklung mit Zend Framework 2'",
     "type": "library",
     "keywords": [
@@ -20,6 +20,9 @@
     "autoload": {
         "psr-0": {
             "ZfDeals": "src/"
-        }
+        },
+        "classmap": [
+            "./Module.php"
+        ]
     }
 }
