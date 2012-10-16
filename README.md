@@ -4,11 +4,7 @@ Install
 Main Install
 ------------
 
-1. Add the following lines to the requirements-block of your composer.json:
-
-- "zf2book/zf-deals": "dev-master"
-- "dlu/dlutwbootstrap": "dev-master"
-
+1. Add the following statement to the requirements-block of your composer.json: "zf2book/zf-deals": "dev-master","dlu/dlutwbootstrap": "dev-master"
 2. Run a composer update to download the libraries needed.
 3. Add "ZfDeals" and "DluTwBootstrap" to the list of active modules in `application.config.php`
 4. Import the SQL schema located in `/vendor/zf2book/zf-deals/data/structure.sql`
