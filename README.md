@@ -4,15 +4,19 @@ Install
 Main Install
 ------------
 
-1. Add >> "zf2book/zf-deals": "dev-master" << to the list of requirements to you composer.json file.
-2. Run a composer update to download ZfDeals.
+1. Add the following lines to the requirments-block of your composer.json:
+
+- "zf2book/zf-deals": "dev-master"
+- "dlu/dlutwbootstrap": "dev-master"
+
+2. Run a composer update to download the libraries needed.
 3. Import the SQL schema located in /vendor/zf2book/zf-deals/data/structure.sql
 
 Post Install
 ------------
 
 1. If you do not already have a valid Zend\Db\Adapter\Adapter in your service
-   manager configuration, put the following in `./config/autoload/db.local.php`:
+   manager configuration, put the following in `/config/autoload/db.local.php`:
 
         <?php
 
