@@ -18,6 +18,7 @@
         "zendframework/zendframework": "2.*",
         "dlu/dlutwbootstrap": "dev-master"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
             "ZfDeals": "src/"
