@@ -15,7 +15,8 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.*"
+        "zendframework/zendframework": "2.*",
+        "dlu/dlutwbootstrap": "dev-master"
     },
     "autoload": {
         "psr-0": {
