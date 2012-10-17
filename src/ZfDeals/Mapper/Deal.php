@@ -20,8 +20,7 @@ class Deal extends TableGateway
     {
         parent::__construct(
             $this->tableName,
-            $adapter,
-            new RowGatewayFeature($this->idCol)
+            $adapter
         );
 
         $this->entityPrototype = new DealEntity();
