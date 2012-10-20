@@ -58,6 +58,16 @@ class Module
         return include __DIR__ . '/config/services.config.php';
     }
 
+    public function getControllerConfig()
+    {
+        return include __DIR__ . '/config/controllers.config.php';
+    }
+
+    public function getViewHelperConfig()
+    {
+        return include __DIR__ . '/config/viewhelper.config.php';
+    }
+
     public function getAutoloaderConfig()
     {
         return array(

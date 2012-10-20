@@ -3,7 +3,6 @@ namespace ZfDeals\Form;
 
 use Zend\Form\Fieldset;
 use Zend\InputFilter\InputFilterInterface;
-use Zend\InputFilter\InputFilterProviderInterface;
 
 class ProductSelectorFieldset extends Fieldset
 {
