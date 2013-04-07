@@ -1,7 +1,7 @@
 <?php
 use Zend\Loader\StandardAutoloader;
 
-chdir(dirname(__DIR__) . '/../../');
+chdir(dirname(__DIR__) . '/../../../');
 
 include 'init_autoloader.php';
 
